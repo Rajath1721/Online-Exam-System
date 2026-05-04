@@ -1,0 +1,22 @@
+The Online Examination System is a web-based platform developed to conduct examinations digitally through a secure and efficient interface. The system allows administrators to create exams, manage questions, register students, and evaluate results automatically. Students can log in, attend exams, and receive their scores instantly after submission.
+The project uses React.js for the frontend interface, Node.js with Express.js for backend API services, and MySQL for storing structured examination data. The system reduces manual work, improves efficiency, and ensures transparency in evaluation.
+Online examination platforms are becoming increasingly important in modern education systems because they allow institutions to conduct assessments remotely. The system ensures reliable performance, secure authentication, and real-time data handling.
+The main objectives of the Online Examination System are:
+• To automate the examination process
+• To reduce manual effort involved in conducting exams
+• To provide instant result generation
+• To store examination data securely in a database
+• To provide a user-friendly interface for students and administrators
+• To improve transparency in evaluation
+• To ensure secure login and authentication for users
+The system aims to create a reliable platform that can support multiple exams simultaneously and manage large numbers of users.
+The Online Examination System is a web-based application designed to conduct, manage, and evaluate examinations through a secure digital environment. Instead of relying on traditional paper-based exams, the platform allows educational institutions to organize assessments through an online interface accessible from computers or other internet-enabled devices. The system is built to handle the entire examination lifecycle—from exam creation and student registration to answer submission and automatic result generation.
+
+At the core of the system are two primary user roles: administrators and students. Administrators are responsible for managing the overall examination process. Through a dedicated dashboard, they can create exams, define exam schedules, add multiple types of questions such as multiple-choice questions (MCQs), and manage student records. The system allows administrators to update questions, set time limits, and monitor the performance of students during or after the examination. This centralised management approach ensures that exams are organised efficiently and consistently.
+
+Students interact with the system through a secure login interface. After authentication, they can view the list of available examinations assigned to them. Once a student begins an exam, the system displays questions in a structured format and tracks the exam duration automatically. Students can select answers, navigate between questions, and submit their responses before the time expires. After submission, the system evaluates the answers instantly for objective question types and provides immediate feedback in the form of scores or results.
+
+The technological foundation of the system is built using modern web development technologies. The frontend is developed using React.js, a JavaScript library widely used for building dynamic and responsive user interfaces. React enables the application to update content efficiently without reloading pages, creating a smooth and interactive experience for users. Components such as login forms, exam dashboards, question interfaces, and result pages are implemented as reusable React components.
+The backend of the system is powered by Node.js and Express.js. Node.js allows JavaScript to run on the server side, enabling fast and scalable handling of multiple requests simultaneously. Express.js acts as a lightweight framework that simplifies the development of server-side APIs. These APIs handle tasks such as user authentication, exam creation, question retrieval, answer submission, and result generation.
+
+For persistent data storage, the system uses MySQL, a reliable relational database management system. MySQL stores structured data, including user credentials, exam details, question banks, student responses, and final results. Using relational tables and well-defined relationships between them, the database ensures data consistency and integrity. Tools such as MySQL Workbench can be used to design, manage, and visualize the database schema during development.
